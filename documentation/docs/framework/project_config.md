@@ -64,7 +64,7 @@ An alternative way to enable this is the system property `kotest.framework.asser
 
 
 ```kotlin
-object ProjectConfig : AbstractProjectConfig {
+object ProjectConfig : AbstractProjectConfig() {
     override val assertionMode = AssertionMode.Error
 }
 ```
